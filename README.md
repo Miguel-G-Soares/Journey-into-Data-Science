@@ -44,7 +44,7 @@ Making your cleaned datasets available to others for analysis or further modelli
 
 Understand that these processes are both iterative and non-sequential. You might always need to do things over again, add things, validate things, etc …
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.001.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.001.png)
 
 ## Structuring Methods In EDA
 - Sorting – Ascending / Descending order
@@ -260,7 +260,7 @@ Ex) A test score being in the 99<sup>th</sup> percentile means that the score ob
 
 Quartiles divide a dataset into four equal parts:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.002.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.002.png)
 
 Inter Quartile Range: The difference between Q3 and Q1.
 
@@ -276,7 +276,7 @@ Five Number Summary: Summarizes the major divisions in your dataset.
 
 Gives you an overall idea of the distribution of your data, from the extreme values to the center, and can be visualized with a boxplot:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.003.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.003.png)
 
 There are multiple way of detecting outliers, one of the most common ones being creating a range where if datapoints are 1.5 IQR below Q1 or above Q3 they are considered outliers.
 ## Inferential Statistics
@@ -502,7 +502,7 @@ Ex) You measure the outcome  like when trying to measure someone’s height it c
 
   Has a similar bell shape to a normal distribution but with larger tails, which indicate the higher frequency of outliers that come from a small dataset, as the sample size increases the t-distribution approaches the normal distribution.
 
-`	`![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.004.png)
+`	`![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.004.png)
 ## Z-Scores
 Z-scores are a measure of precisely how many standard deviations below or above the populations’ mean a datapoint is:
 
@@ -632,7 +632,7 @@ Imagine that you have a penguin population of 10000 with the following weight di
 
 ![A line graph with a red line and blue line
 
-Description automatically generated](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.005.png)
+Description automatically generated](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.005.png)
 
 Where the red line is the mean, lets say 3.5 kg
 
@@ -640,7 +640,7 @@ Now take multiple samples that are large enough from that population, calculate 
 
 ![A diagram of a line graph
 
-Description automatically generated](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.006.png)
+Description automatically generated](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.006.png)
 
 Basically most samples will have and average weight of 3.25 – 3.75 kg, with some a little bit lower/higher and so on, making the bell curve.
 
@@ -688,7 +688,7 @@ Ex)
 
 If the mean population parameter is 85 and you take 100 samples and calculate their interval with a 95% confidence level, then 95 of the confidence intervals of those samples will include the population parameter.
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.007.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.007.png)
 
 Basically a confidence level will tell you that, for example, 95% of all samples’ confidence interval will include the population parameter.
 
@@ -781,7 +781,7 @@ Ex) Testing to see if a medical treatment’s average success rate is equal to a
 
 Allow you to obtain the p-value of the hypothesis test through z-scores:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.008.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.008.png)
 
 Ex)
 
@@ -868,7 +868,7 @@ The p-values can be obtained by calculating the area to the right of your chi-sq
 
 ![A graph of a line
 
-Description automatically generated](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.009.png)
+Description automatically generated](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.009.png)
 ### Chi-Squared Test for Independence
 For categorical variables, determine whether or not two variables are associated with one another.
 
@@ -965,7 +965,7 @@ As such, it is common to have access to a confidence interval (usually 95%), tha
 
 Which creates a confidence band such as the one below:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.010.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.010.png)
 
 Beyond this it is useful to understand that in a regression analysis, each beta coefficient goes through the following hypothesis testing:
 
@@ -1075,7 +1075,7 @@ The adjusted R<sup>2</sup> is an adjusted version of the coefficient of determin
 ### Regularization
 There is a constant balance between bias and variance when constructing a model, too high of a bias simplifies the predictions and relationships, underfitting the data and creating inaccurate estimates, while too high variance adds complexity and can overfit the data, getting inaccurate results for data outside of the one used to train the model.
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.011.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.011.png)
 
 \*NOTE: Variance in this context does not relate to the variance of a distribution (sd<sup>2</sup>).
 
@@ -1578,7 +1578,7 @@ Nodes that connect further in the chain are called parent nodes, and nodes that 
 
 The order of what and where variables are assessed in a node are made based on the class impurity (degree of mixture in regards to class) of their respective children.
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.012.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.012.png)
 
 A set of potential split points is generated for each predictor variable and an algorithm is used to predict the purity of the child nodes from each split point. The split that generates the purest child nodes is then selected for the model.
 
@@ -1666,19 +1666,19 @@ Chose the number of centroids (k) and randomly place them in the data space:
 
 \*NOTE: k is a value that you decide on, sometimes you’ll have an idea of how many centroids you’ll need (like if you have 5 products that you need to analyse) but if you don’t do an iterative process and figure out what number performs the best.
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.013.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.013.png)
 
 **Step 2:**
 
 Assign all data points to their nearest centroid based on their distance to the points, creating the clusters:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.014.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.014.png)
 
 **Step 3:**
 
 Recalculate the centroid of each cluster by calculating their mean point:
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.015.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.015.png)
 
 **Step 4+:**
 
@@ -1688,7 +1688,7 @@ Repeat steps 2 and 3 until model convergence is found (centroid positions are st
 
 Ex)
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.016.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.016.png)
 
 \*NOTE: Most machine learning packages have taken into consideration the problem with local minimums and therefore first create their centroids in a different manner (one centroid is chosen from one of the datapoints and then selects other datapoints that are far away to be the remaining centroids). As an example, in scikit-learn this function is k-means++.
 ### Finding Optimal K-Means and Evaluating Models
@@ -1729,7 +1729,7 @@ b – mean distance from the observation to all observations within the next clo
 
 s can range from -1 to 1, where the closer to 1 the more an observation fits within its own cluster and more separated from other clusters.
 
-![](Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.017.png)
+![](images/Aspose.Words.dca845d3-cf82-4ebd-ac89-2409c857dbbb.017.png)
 
 If s is 0 it is in the borders between clusters and if it is close to -1 it might actually belong to another cluster.
 
