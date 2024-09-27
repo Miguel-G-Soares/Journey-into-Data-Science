@@ -284,13 +284,13 @@ Sets are largely optimized for detecting whether an element is in it and make co
 
 If you want to know what elements appear between the two sets use:
 
-![](Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.001.png)	set\_a.intersection( set\_b , … )
+![](images/Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.001.png)	set\_a.intersection( set\_b , … )
 
 `	`OR
 
 `	`set\_a & set\_b & …
 
-![](Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.002.png)If you want to know all the elements of a group of sets merged together use:
+![](images/Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.002.png)If you want to know all the elements of a group of sets merged together use:
 
 `	`set\_a.union( set\_b , … )
 
@@ -300,7 +300,7 @@ OR
 
 If you want to remove the elements of a set from another and see whats left use:
 
-![](Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.003.png)	set\_a.difference( set\_b , … )
+![](images/Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.003.png)	set\_a.difference( set\_b , … )
 
 OR
 
@@ -310,7 +310,7 @@ OR
 
 If you want to know all the elements that are not in both sets use:
 
-![](Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.004.png)	set\_a.symmetric\_difference( set\_b , … )
+![](images/Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.004.png)	set\_a.symmetric\_difference( set\_b , … )
 
 OR
 
@@ -1403,7 +1403,7 @@ Ex)
 
 `	`Category		Category A	Category B	Category C
 
-![](Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.005.png)	Category A		1		0		0
+![](images/Aspose.Words.5da2474d-6561-41ae-bc02-3ece7f7375ae.005.png)	Category A		1		0		0
 
 `	`Category A		1		0		0
 
